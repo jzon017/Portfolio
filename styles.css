@@ -1,0 +1,300 @@
+html,
+body {
+    background-color: #F3F3F3;
+    font-family: 'Poppins';
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    display: inline;
+    color: #4D4D4D;
+    margin: 0;
+}
+
+h2.ignore-inline {
+    display: block;
+}
+
+.about-info {
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.about-header {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #181717;
+    margin: 0;
+}
+
+.about-details {
+    color: #181717;
+    margin: 0;
+    margin-left: 4rem;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.my-image {
+    margin: 1rem;
+    position: relative;
+    float: right;
+    width: 480px;
+    height: auto;
+}
+
+.shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.square {
+    height: 400px;
+    width: 480px;
+    background-color: #F2994A;
+    position: absolute;
+    right: 0;
+}
+
+p {
+    font-size: 1.125rem;
+    color: #181717;
+    display: inline;
+}
+
+hr {
+    margin: 0;
+    margin-top: 6.5rem;
+    color: #181717;
+    border-top: 2px solid
+}
+
+p.text {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+p.fancy {
+    font-family: 'Karla';
+    color: #F2994A;
+    display: inline;
+}
+
+p.subtext {
+    font-family: 'Karla';
+    color: #4D4D4D;
+    font-size: 0.875rem;
+    display: inline;
+}
+
+h1.fancy,
+h2.fancy {
+    color: #F2994A;
+    display: inline;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #181717;
+}
+
+.nav-link {
+    color: #181717;
+    font-size: 1.25rem;
+    width: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 160px;
+    padding-left: 160px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p.name {
+    color:#F2994A;
+}
+
+.sticky-top {
+    background: #f3f3f380;
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar {
+    padding: 0;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-link {
+    margin-left: 80px !important;
+    padding-right: 0 !important;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #F2994A;
+}
+
+a.navbar-brand:hover {
+    color: #F2994A;
+}
+
+a.project-details {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla';
+    color: #181717;
+    font-weight: bold;
+    font-size: 1.125rem;
+    text-decoration-line: underline;
+}
+
+a.project-details:hover {
+    color: #F2994A;
+}
+
+.container {
+    margin: 0;
+    width: 1440px;
+}
+
+.hero {
+    margin-top: 10rem;
+    width: auto;
+    padding: 0;
+}
+
+.work {
+    margin-top: 104px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    padding: 0;
+}
+
+.arrowdown {
+    color: #181717;
+    font-size: 40px;
+    margin-top: 4rem;
+}
+
+.arrowright {
+    margin: 1rem;
+    color:#F2994A;
+}
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #F2994A;
+    border: 0;
+    border-radius: 15px;
+    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+}
+
+.btn-primary:hover {
+    background-color: #f47e17;
+    color: #181717;
+}
+
+.navbar-toggler {
+    color: #181717;
+}
+
+.project-image {
+    width: auto;
+    height: auto;
+}
+
+.row {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6.5rem;
+    margin-bottom: 6.5rem;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #181717;
+}
+
+a:hover {
+    color: #F2994A;
+}
+
+a.socmed-link {
+    margin-left: 2.5rem;
+}
+
+.paragraph {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h2.cta {
+    color: #181717;
+    margin: 0;
+    margin-top: 6.5rem;
+    margin-bottom: 2rem;
+    padding: 0;
+    display: block;
+}
+
+@media (max-width: 978px) {
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .work {
+        text-align: center;
+    }
+
+    body {
+        padding: 0;
+    }
+
+
+    .navbar-fixed-top,
+    .navbar-fixed-bottom,
+    .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+}
