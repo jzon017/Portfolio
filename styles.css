@@ -271,6 +271,10 @@ h2.cta {
     display: block;
 }
 
+.email {
+    margin-bottom: 16px !important;
+}
+
 @media (max-width: 978px) {
     .container-fluid {
         padding: 0;
